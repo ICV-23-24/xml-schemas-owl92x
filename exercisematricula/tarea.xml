@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <xsd:element name="matricula" type="tipoMatricula"/>
-    <xsd:simpleType name="tipoMatricula">
-      <xsd:restriction base="xsd:string">
-        <xsd:pattern value="\d{4}[A-Z]{3}"/>
-      </xsd:restriction>
-    </xsd:simpleType>
-</xsd:schema>
